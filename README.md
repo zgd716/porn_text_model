@@ -7,3 +7,8 @@
 1、data目录下的import_porn.txt色情短文本；import_unporn.txt正常短文本。通过corpus_helper.py中的insert_data方法可以将语料导入到mysql中
 
 2、执行python  train.py可以将mysql中语料获取、训练textrnn+attention模型；最后保存模型并固化
+
+
+※note:
+
+data目录下有actress.txt（女优演员）和fh.txt(番号)；可以通过这两个字典对日影片进行过滤
